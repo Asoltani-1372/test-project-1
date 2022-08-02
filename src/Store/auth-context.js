@@ -2,7 +2,7 @@ import React, {useState} from "react";
 
 const AuthContext = React.createContext({
     isLoggedIn : false,
-    onLogout : () => {}
+    onLogout : () => {},
     onLogin : () => {}
 })  
 
@@ -28,4 +28,4 @@ export const autContextProvider = (props) => {
   )
 }
 
-export default AutContext
+export default AuthContext

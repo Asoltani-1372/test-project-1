@@ -2,10 +2,10 @@ import React , {useContext} from 'react';
 
 import classes from './Navigation.module.css';
 import { useContext } from 'react';
-import authContext from '../../Store/auth-context';
+import AuthContext from '../../Store/auth-context';
 
 const Navigation = (props) => {
-  const ctx = useContext(authContext)
+  const ctx = useContext(AuthContext)
   return (
     <nav className={classes.nav}>
       <ul>
